@@ -702,7 +702,6 @@
   width: 353px;
   min-height: 251px;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.1);
-  height: auto;
   margin: -96px auto 0 15px;
 }
 
@@ -757,7 +756,6 @@
     min-height: 268px;
     margin-top: -51px;
     margin-left: 0;
-    height: auto;
   }
 
   .u-section-4 .u-form-1 {
