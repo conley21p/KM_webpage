@@ -149,6 +149,12 @@
     width: 82px;
     height: 82px;
   }
+
+  .u-section-1 .u-form-1 {
+    margin-top: 20px;
+    margin-right: initial;
+    margin-left: initial;
+  }
 }
 
 @media (max-width: 575px) {
@@ -166,5 +172,11 @@
   .u-section-1 .u-carousel-thumbnail-3 {
     width: 48px;
     height: 48px;
+  }
+
+  .u-section-1 .u-form-1 {
+    margin-top: 0;
+    margin-right: initial;
+    margin-left: initial;
   }
 }

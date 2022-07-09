@@ -37793,8 +37793,18 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 @media (max-width: 767px) {
+  .u-header .u-sheet-1 {
+    min-height: 211px;
+  }
+
   .u-header .u-menu-1 {
-    margin-top: -37px;
+    margin-top: -40px;
+  }
+
+  .u-header .u-social-icons-1 {
+    margin-top: 21px;
+    margin-right: auto;
+    margin-bottom: 29px;
   }
 }
 @media (max-width: 575px) {
@@ -37816,7 +37826,6 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-header .u-social-icons-1 {
     margin-top: -31px;
-    margin-right: auto;
     margin-bottom: 55px;
   }
 }
