@@ -1,7 +1,7 @@
  .u-section-1 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("/images/Screenshot55.png");
   background-position: 53.34% 57.59%;
-  background-size: auto 260%;
+  background-size: auto 300%;
 }
 
 .u-section-1 .u-sheet-1 {
@@ -219,31 +219,7 @@
   height: 65px;
   left: auto;
   top: 325px;
-  right: calc(((100% - 1140px) / 2)  + 354px);
-}
-
-@media (max-width: 1199px) {
-  .u-block-c2a3-4 {
-    right: calc(((100% - 940px) / 2)  + 254px);
-  }
-}
-
-@media (max-width: 991px) {
-  .u-block-c2a3-4 {
-    right: calc(((100% - 720px) / 2)  + 144px);
-  }
-}
-
-@media (max-width: 767px) {
-  .u-block-c2a3-4 {
-    right: calc(((100% - 540px) / 2)  + 54px);
-  }
-}
-
-@media (max-width: 575px) {
-  .u-block-c2a3-4 {
-    right: calc(((100% - 340px) / 2)  + -46px);
-  }
+  right: 0;
 }
 
  .u-section-3-1 {
@@ -379,6 +355,10 @@
   margin-left: auto;
 }
 
+.u-section-4 .u-repeater-1 {
+  grid-gap: 0px;
+}
+
 @media (max-width: 1199px) {
   .u-section-4 .u-sheet-1 {
     min-height: 811px;
@@ -410,6 +390,10 @@
     margin-bottom: -18px;
     margin-left: initial;
   }
+
+  .u-section-4 .u-repeater-1 {
+    grid-template-columns: repeat(undefined, NaN%);
+  }
 }
 
 @media (max-width: 991px) {
@@ -437,6 +421,10 @@
   .u-section-4 .u-list-1 {
     margin-bottom: 50px;
     margin-left: initial;
+  }
+
+  .u-section-4 .u-repeater-1 {
+    grid-template-columns: repeat(1, 100%);
   }
 }
 
